@@ -38,7 +38,10 @@ with open(csvpath) as csvfile:
         for line in csvfile:
             candidate = line.split(",")[-1].strip()
             votes[candidate] += 1
+            winner= max(votes)
         print(votes)
+        print(winner)
+
 
 #Export the output of the code into a txt file
 output= (
