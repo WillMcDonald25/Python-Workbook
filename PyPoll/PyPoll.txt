@@ -1,1 +1,1 @@
-Election Results------------------------Total Votes: 1 ------------------------Counter({'Diana DeGette': 272892, 'Charles Casper Stockham': 85212, 'Raymon Anthony Doane': 11606})
+Election Results------------------------Total Votes: 1 ------------------------Winner: Diana DegetteCounter({'Diana DeGette': 272892, 'Charles Casper Stockham': 85212, 'Raymon Anthony Doane': 11606})

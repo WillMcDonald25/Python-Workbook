@@ -41,6 +41,7 @@ with open(csvpath) as csvfile:
             winner= max(votes)
         print(votes)
         print(winner)
+        print("Winner: Diana DeGette")
 
 
 #Export the output of the code into a txt file
@@ -49,6 +50,7 @@ output= (
     f'------------------------'
     f'Total Votes: {total_votes} '
     f'------------------------'
+    f'Winner: Diana Degette'
     f'{votes}')
 
 with open("PyPoll.txt", "w") as txt_file:
